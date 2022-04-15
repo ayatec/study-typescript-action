@@ -21,7 +21,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ./
         name: 'run my action'
-        id: 'my id'
         with:
           name: 'Hello world!'
           milliseconds: 1000
