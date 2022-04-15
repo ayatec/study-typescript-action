@@ -20,5 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./
+        name: 'run my action'
         with:
+          name: 'Hello world!'
           milliseconds: 1000
